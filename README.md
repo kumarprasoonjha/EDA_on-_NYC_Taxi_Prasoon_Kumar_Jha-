@@ -6,7 +6,7 @@ This repository contains an exploratory data analysis of NYC Yellow Cab trip dat
 
 📁 Repository Structure
 
-├── EDA_Assg_NYC_Taxi_Starter_Prasoon_Kumar_Jha.ipynb   # Jupyter Notebook with full analysis
+├── EDA_Assg_NYC_Taxi_Starter_Prasoon_Kumar_Jha.ipynb     # Jupyter Notebook with full analysis
 ├── Report_EDA_on_NYC_Taxi_Records_Prasoon_Kumar_Jha.pdf     # PDF Report (generated from notebook)
 └── README.md                       # Project overview and instructions
 
@@ -38,22 +38,16 @@ git clone https://github.com/kumarprasoonjha/EDA_on-_NYC_Taxi_Prasoon_Kumar_Jha.
 cd EDA_on-_NYC_Taxi_Prasoon_Kumar_Jha
 
 Make sure you have the following dependencies installed:
-# Recommended versions
-# numpy version: 1.26.4
-# pandas version: 2.2.2
-# matplotlib version: 3.10.0
-# seaborn version: 0.13.2
+Recommended versions
+numpy version: 1.26.4
+pandas version: 2.2.2
+matplotlib version: 3.10.0
+seaborn version: 0.13.2
 
 Place the 2023 NYC Yellow Cab dataset in a directory of your choice and update the trip_records_dir  & taxi_zones_dir variable in the notebook.
 
 Open and run the notebook:
 
 jupyter notebook EDA_Assg_NYC_Taxi_Starter_Prasoon_Kumar_Jha.ipynb
-
-📥 Data Source
-
-NYC TLC Yellow Taxi Trip Data 2023
-
-📝 License
 
 This project is open source and available under the MIT License.
