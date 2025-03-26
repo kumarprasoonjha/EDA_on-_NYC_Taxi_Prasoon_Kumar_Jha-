@@ -1,53 +1,44 @@
 NYC Yellow Cab Trip Data Analysis (2023)
-
 📊 About this Project
-
-This repository contains an exploratory data analysis of NYC Yellow Cab trip data for 2023. The project includes a Jupyter Notebook and a PDF report summarizing key insights and visualizations.
+This repository contains an exploratory data analysis (EDA) of NYC Yellow Cab trip data for the year 2023. The project includes a Jupyter Notebook and a PDF report summarizing key findings, visualizations, and insights derived from the data.
 
 📁 Repository Structure
-
-├── EDA_Assg_NYC_Taxi_Starter_Prasoon_Kumar_Jha.ipynb     # Jupyter Notebook with full analysis
-├── Report_EDA_on_NYC_Taxi_Records_Prasoon_Kumar_Jha.pdf     # PDF Report (generated from notebook)
-└── README.md                       # Project overview and instructions
+├── EDA_Assg_NYC_Taxi_Starter_Prasoon_Kumar_Jha.ipynb  
+├── Report_EDA_on_NYC_Taxi_Records_Prasoon_Kumar_Jha.pdf 
+└── README.md
 
 ✅ Key Insights
+Top Pickup & Dropoff Zones: Most popular areas for taxi activity.
 
-Top Pickup & Dropoff Zones: Identified most popular areas for taxi activity.
+Trip Distance vs. Tip Percentage: How tipping behavior varies with trip distance.
 
-Trip Distance vs. Tip Percentage: Analyzed how tipping behavior changes with distance.
+Passenger Count Across Zones: Demand hotspots identified across NYC zones.
 
-Passenger Counts by Zones: Explored demand concentration across different NYC zones.
-
-Fare per Mile Analysis: Compared average fare per mile across different days of the week and times of the day.
+Fare per Mile Analysis: Comparison of fare efficiency across days of the week and hours of the day.
 
 📊 Visualizations Included
+Bar plots for top pickup and dropoff zones.
 
-Bar plots of top pickup and dropoff zones
+Tip percentage distribution by trip distance bins.
 
-Tip percentage vs. trip distance bin
+Passenger count hotspots visualized on the NYC map.
 
-Passenger count hotspots mapped on NYC map
-
-Average fare per mile by day of week and hour of day
+Average fare per mile by day of the week and by hour of the day.
 
 🚀 How to Run
+Clone the repository:
+git clone https://github.com/kumarprasoonjha/eda-on-nyc-taxi-prasoon-kumar-jha.git
+cd eda-on-nyc-taxi-prasoon-kumar-jha
 
-Clone this repository:
+Install required dependencies (recommended versions):
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.10.0
+seaborn==0.13.2
 
-git clone https://github.com/kumarprasoonjha/EDA_on-_NYC_Taxi_Prasoon_Kumar_Jha.git
-cd EDA_on-_NYC_Taxi_Prasoon_Kumar_Jha
+**Prepare data:**
+Download and place the NYC Yellow Cab 2023 dataset in your local directory.
+Update trip_records_dir and taxi_zones_dir variables in the notebook accordingly.
 
-Make sure you have the following dependencies installed:
-Recommended versions
-numpy version: 1.26.4
-pandas version: 2.2.2
-matplotlib version: 3.10.0
-seaborn version: 0.13.2
-
-Place the 2023 NYC Yellow Cab dataset in a directory of your choice and update the trip_records_dir  & taxi_zones_dir variable in the notebook.
-
-Open and run the notebook:
-
+Run the notebook:
 jupyter notebook EDA_Assg_NYC_Taxi_Starter_Prasoon_Kumar_Jha.ipynb
-
-This project is open source and available under the MIT License.
