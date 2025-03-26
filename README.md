@@ -52,5 +52,5 @@ seaborn==0.13.2
 
 ### 4. Run the notebook
 ```bash
-jupyter notebook eda-on-nyc-taxi-prasoon-kumar-jha.ipynb
+jupyter notebook EDA_Assg_NYC_Taxi_Starter_Prasoon_Kumar_Jha.ipynb
 ```
