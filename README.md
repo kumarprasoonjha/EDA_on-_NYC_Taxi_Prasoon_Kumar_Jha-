@@ -54,8 +54,3 @@ seaborn==0.13.2
 ```bash
 jupyter notebook eda-on-nyc-taxi-prasoon-kumar-jha.ipynb
 ```
-
----
-
-## 📄 License
-This project is open source and available under the [MIT License](LICENSE).
